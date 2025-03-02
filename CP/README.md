@@ -1,6 +1,10 @@
 # CP Spring Camp - 25
 
+This spring camp was conducted for the first years in Feb 2025, helping them in Competitive Programming through Lectures on theory and Problem Solving Assignments.
+
 Assignment Problems can be found here : https://docs.google.com/document/d/1wYteLX1j9gSUPh5o-hA7-mDRbvxyTwlPzlakuAwgZpg/edit?usp=sharing 
+
+### Progress of mentees
 
 - Abubakar Siddique    [========] (8/8)
 - Aditya Sai Vemparala [=====___] (5/8)
