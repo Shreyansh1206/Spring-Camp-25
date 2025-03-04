@@ -39,7 +39,7 @@ history = model.fit(X_train, y_train,
                     verbose=1)
 
 test_loss, test_accuracy = model.evaluate(X_test, y_test, verbose=0)
-print(f"Test accuracy: {test_accuracy:.4f}")
+print(f"Test accuracy: {test_accuracy:}")
 
 model.save('Models\\static_gesture_classifier.h5')
 
