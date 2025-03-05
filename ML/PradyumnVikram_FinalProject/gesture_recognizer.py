@@ -8,8 +8,8 @@ mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 static_classes = ['Thumbs Up', 'Thumbs Down', 'Ok', 'Stop']
 dynamic_classes = ['No No No', 'Hello!', 'Wrist Stretch']
-static_model = load_model('Models\\static_gesture_classifier.h5')
-dynamic_model = load_model('Models\\dynamic_gesture_classifier.h5')
+static_model = load_model('static_gesture_classifier.h5')
+dynamic_model = load_model('dynamic_gesture_classifier.h5')
 
 sequence_length = 20
 input_seq = []

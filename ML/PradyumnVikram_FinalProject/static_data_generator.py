@@ -49,6 +49,6 @@ for class_ in range(4):
 
 
 df = pd.DataFrame(data, columns=[i for i in range(64)])
-df.to_csv('csv_files\\static_data.csv', index=False)
+df.to_csv('static_data.csv', index=False)
 cap.release()
 cv2.destroyAllWindows()

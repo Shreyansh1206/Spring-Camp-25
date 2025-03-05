@@ -67,6 +67,6 @@ for i in range(len(design_matrix)):
 csv_data = np.array(csv_data)
 
 df = pd.DataFrame(csv_data, columns=[i for i in range(63*sequence_length+1)])
-df.to_csv('csv_files\\dynamic_data.csv', index=False)
+df.to_csv('dynamic_data.csv', index=False)
 cap.release()
 cv2.destroyAllWindows()

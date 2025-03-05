@@ -6,7 +6,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 
-df = pd.read_csv('csv_files\\dynamic_data.csv')
+df = pd.read_csv('dynamic_data.csv')
 
 design_matrix = df.iloc[:, :-1].values
 target_vector = df.iloc[:, -1].values
@@ -43,6 +43,6 @@ history = model.fit(X_train, y_train,
 
 
 test_loss, test_accuracy = model.evaluate(X_test, y_test, verbose=0)
-print(f"Test accuracy: {test_accuracy:.4f}")
+print(f"Test accuracy: {test_accuracy}")
 
-model.save('Models\\dynamic_gesture_classifier.h5')
+model.save('dynamic_gesture_classifier.h5')
